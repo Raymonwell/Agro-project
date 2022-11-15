@@ -1,0 +1,132 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background: white;
+    color: #000;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+    padding: 2ch;
+    align-items: center;
+    overflow-x: hidden;
+    box-shadow: #07c507;
+    padding-top: 3ch;
+    position: fixed;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #07c507;
+    box-shadow: 5px 5px;
+    transition: 4s;
+}
+nav ul li a:visited{
+    color: #1c223a;
+}
+.nav_logo img{
+    width: 30%;
+    margin-left: 10ch;
+    padding: 2ch;
+}
+.nav_page{
+    margin-left: -5ch;
+    font-size: 20px;
+    margin-top: 2ch;
+    color: black;
+}
+#pp{
+    width: 12ch;
+    height: 5ch;
+    background: white;
+    color: #07c507;
+    font-size: 20px;
+    font-weight: 40px;
+    box-shadow: #07c507;
+    border-color: #07c507;
+    border-radius: 1ch;
+    margin-left: 5ch;
+    margin-right: 11ch;
+    margin-top: 3ch;
+}
+.nav_links{
+    margin-left: 10ch;
+}
+.nav_links:hover a{
+    display: block;
+    color: #07c507;
+}
+.open-nav-btn{
+    display: none;
+}
+.close-nav-btn{
+    display: none;
+}
+section{
+    background-image: url(./images/aboutus3.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 15ch;
+    padding: 8rem;
+    color: #07c507;
+}
+.about{
+    display: flex;
+    gap: 2rem;
+    margin-right: 15ch;
+}
+.identify{
+    background: white;
+    line-height: 2rem;
+    padding: 2rem;
+}
+.our_procedure{
+    font-size: 5ch;
+}
+.procedure{
+    padding: 8rem;
+    background:rgb(230, 234, 236) ;
+}
+.value {
+    display: grid;
+    padding: 3em 11rem;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid black; */
+    gap: 2rem;
+
+}
+p{
+    color: grey;
+}
+
+.value>div {
+    width: 70%;
+    padding: 2rem;
+    /* border: 1px solid black; */
+    background: white;
+    border: none;
+    line-height: 2rem;
+    border-radius: 2ch;
+}
+.our_story{
+    padding: 5rem;
+    line-height: 4rem;
+}

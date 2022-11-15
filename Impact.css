@@ -1,0 +1,117 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background: white;
+    color: #000;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+    padding: 2ch;
+    align-items: center;
+    overflow-x: hidden;
+    box-shadow: #07c507;
+    padding-top: 3ch;
+    position: fixed;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #07c507;
+    box-shadow: 5px 5px;
+    transition: 4s;
+}
+nav ul li a:visited{
+    color: #1c223a;
+}
+.nav_logo img{
+    width: 30%;
+    margin-left: 10ch;
+    padding: 2ch;
+}
+.nav_page{
+    margin-left: -5ch;
+    font-size: 20px;
+    margin-top: 2ch;
+    color: black;
+}
+#pp{
+    width: 12ch;
+    height: 5ch;
+    background: white;
+    color: #07c507;
+    font-size: 20px;
+    font-weight: 40px;
+    box-shadow: #07c507;
+    border-color: #07c507;
+    border-radius: 1ch;
+    margin-left: 5ch;
+    margin-right: 11ch;
+    margin-top: 3ch;
+}
+.nav_links{
+    margin-left: 10ch;
+}
+.nav_links:hover a{
+    display: block;
+    color: #07c507;
+}
+.open-nav-btn{
+    display: none;
+}
+.close-nav-btn{
+    display: none;
+}
+section{
+    background: #07c507;
+    color: white;
+    margin-top: 10ch;
+    padding: 4ch;
+}
+.contact{
+    display: flex;
+    margin-top: 1ch;
+}
+.margin_p{
+    margin-left: 135ch;
+}
+.impact_div{
+    text-align: center;
+    margin-top: 10ch;
+}
+img{
+    width: 150px;
+}
+.second_div{
+    padding: 2rem;
+    margin-left: 52ch;
+}
+.space001{
+    /* width: 50%; */
+    display: flex;
+    padding: 4rerm;
+}
+.no_pov{
+    width: 40%;
+    padding: 6rem;
+    margin-left: 25ch;
+}
+

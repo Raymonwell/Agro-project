@@ -1,0 +1,150 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background: white;
+    color: #000;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+    padding: 2ch;
+    align-items: center;
+    overflow-x: hidden;
+    box-shadow: #07c507;
+    padding-top: 3ch;
+    position: fixed;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #07c507;
+    box-shadow: 5px 5px;
+    transition: 4s;
+}
+nav ul li a:visited{
+    color: #1c223a;
+}
+.nav_logo img{
+    width: 30%;
+    margin-left: 10ch;
+    padding: 2ch;
+}
+.nav_page{
+    margin-left: -5ch;
+    font-size: 20px;
+    margin-top: 2ch;
+    color: black;
+}
+#pp{
+    width: 12ch;
+    height: 5ch;
+    background: white;
+    color: #07c507;
+    font-size: 20px;
+    font-weight: 40px;
+    box-shadow: #07c507;
+    border-color: #07c507;
+    border-radius: 1ch;
+    margin-left: 5ch;
+    margin-right: 11ch;
+    margin-top: 3ch;
+}
+.nav_links{
+    margin-left: 10ch;
+}
+.nav_links:hover a{
+    display: block;
+    color: #07c507;
+}
+.open-nav-btn{
+    display: none;
+}
+.close-nav-btn{
+    display: none;
+}
+section{
+    background: #07c507;
+    color: white;
+    margin-top: 10ch;
+    padding: 4ch;
+}
+.contact{
+    display: flex;
+    margin-top: 1ch;
+}
+.margin_p{
+    margin-left: 135ch;
+}
+p{
+    margin-left: 100ch;
+}
+form{
+    margin-top: 15ch;
+    padding: 2ch;
+    line-height: 3ch;
+}
+input{
+    width: 60ch;
+    height: 6ch;
+    display: block;
+    margin: 2rem;
+    margin-left: 1ch;
+
+}
+input::placeholder{
+    color: #07c507;
+    font-size: 20px;
+}
+.frame_contact{
+    display: flex;
+    padding: 5ch;
+    width: 100%;
+    gap: 4rem;
+}
+.message{
+    width: 40%;
+    border: white;
+    border-radius: 1ch;
+    box-shadow: 0 0 0 5px white;
+}
+.iframe{
+    width: 40%;
+    background: white;
+    padding: 5ch;
+    border-radius: 1ch;
+    box-shadow: 1px -8px 0 1px #07c507;
+}
+.you{
+    background: #07c507;
+    height: 4ch;
+    width: 15ch;
+    border: none;
+    margin-top: 3ch;
+}
+.you a{
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 1ch;
+    border-top-left-radius: 3ch;
+    border-bottom-right-radius: 3ch;
+    box-shadow: 2px 2px 2px 2px rgb(89, 192, 71);
+    border: none;
+}
